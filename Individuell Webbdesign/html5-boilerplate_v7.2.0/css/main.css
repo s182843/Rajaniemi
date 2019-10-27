@@ -376,11 +376,6 @@ header a:hover{
   font-size: 20px;
 }
 
-
-
-
-
-
 /* test för about sidan*/
 #showcase2{
   min-height: 400px;
@@ -398,11 +393,6 @@ header a:hover{
 #showcase2 p{
   font-size: 20px;
 }
-
-
-
-
-
 
 /* test för contents sidan*/
 #showcase3{
@@ -471,13 +461,31 @@ header a:hover{
 aside#sidebar{
   float: right;
   width: 30%;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 aside#sidebar .quote input, aside#sidebar .quote textarea{
   width: 90%;
   padding: 5px;
 }
+
+
+
+/*Sidebar contetns*/
+aside#sidebar2{
+  float: right;
+  width: 30%;
+  margin-top: 150px;
+}
+
+.dark2{
+  padding:15px;
+  background: #efeff5;
+  color: black;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
 
 /*Main-col*/
 article#main-col{
@@ -489,9 +497,9 @@ article#main-col{
 ul#contents li{
   list-style: none;
   padding: 20px;
-  border: grey solid 1px;
+  border: grey solid 2px;
   margin-bottom: 5px;
-  background: lightgrey;
+  background: #fffae6;
 }
 
 footer{
@@ -539,6 +547,25 @@ footer{
   .imgslide{
     border: 10px solid black;
   }
+
+
+
+
+
+  #showcase{
+    background: url('../img/rocky1.jpg') no-repeat 0 -400px;
+  }
+
+  #showcase2{
+    background: url('../img/rocky2.jpg') no-repeat 0 -400px;
+  }
+
+
+  #showcase3{
+    background: url('../img/rocky3.jpg') no-repeat 0 -400px;
+  }
+
+
 
 }
 
