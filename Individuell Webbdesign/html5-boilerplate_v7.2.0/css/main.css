@@ -404,6 +404,28 @@ header a:hover{
 
 
 
+/* test för contents sidan*/
+#showcase3{
+  min-height: 400px;
+  background: url('../img/tester1.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: white;
+}
+
+#showcase3 h1{
+  margin-top: 100px;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+#showcase3 p{
+  font-size: 20px;
+}
+
+
+
+
+
 /* newsletter*/
 #newsletter{
   padding: 15px;
