@@ -475,7 +475,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 aside#sidebar2{
   float: right;
   width: 30%;
-  margin-top: 150px;
+  margin-top: 75px;
 }
 
 .dark2{
@@ -519,7 +519,8 @@ footer{
   #newsletter form,
   #boxes .box, 
   article#main-col,
-  aside#sidebar{
+  aside#sidebar,
+  aside#sidebar2{
     float: none;
     text-align: center;
     width: 100%;
