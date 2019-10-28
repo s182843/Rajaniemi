@@ -344,6 +344,15 @@ header .highlight, header .current a{
   font-weight: bold;
 }
 
+
+/* test */
+
+.highlight:hover{
+  color: rgba(0,0,0,0.8);
+  cursor: pointer;
+}
+
+
 header a:hover{
   color: blue;
   font-weight: bold;
@@ -412,6 +421,24 @@ header a:hover{
   font-size: 20px;
 }
 
+/* test för contact sidan*/
+#showcase4{
+  min-height: 400px;
+  background: url('../img/contactdog2.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: white;
+}
+
+#showcase4 h1{
+  margin-top: 100px;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+#showcase4 p{
+  font-size: 20px;
+}
+
 
 
 
@@ -464,7 +491,23 @@ aside#sidebar{
   margin-top: 50px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea{
+/*Sidebar5 contact*/
+aside#sidebar5{
+  float: right;
+  width: 30%;
+  margin-top: 40px;
+}
+
+/*dark5 contact*/
+.dark5{
+  padding:15px;
+  background: #efeff5;
+  color: black;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+aside#sidebar5 .quote input, aside#sidebar5 .quote textarea{
   width: 90%;
   padding: 5px;
 }
@@ -520,7 +563,8 @@ footer{
   #boxes .box, 
   article#main-col,
   aside#sidebar,
-  aside#sidebar2{
+  aside#sidebar2,
+  aside#sidebar5{
     float: none;
     text-align: center;
     width: 100%;
@@ -554,18 +598,27 @@ footer{
 
 
   #showcase{
-    background: url('../img/rocky1.jpg') no-repeat 0 -400px;
+   /* background: url('../img/mobildogen.jpg') no-repeat 0 -400px;  */
+   
+    background: green;
+
   }
 
   #showcase2{
-    background: url('../img/rocky2.jpg') no-repeat 0 -400px;
+   /* background: url('../img/rocky2.jpg') no-repeat 0 -400px; TA BARA BORT BILD!!! inte h1*/
+   background: green;
   }
 
 
   #showcase3{
-    background: url('../img/rocky3.jpg') no-repeat 0 -400px;
+  /*  background: url('../img/rocky3.jpg') no-repeat 0 -400px; */
+  background: green;
   }
 
+  #showcase4{
+    /* background: url('../img/rocky3.jpg') no-repeat 0 -400px; */
+    background: green;
+  }
 
 
 }
@@ -607,8 +660,6 @@ footer{
 /* The dot/bullet/indicator container */
 .dot-container {
   text-align: center;
-  padding: 20px;
-  background:lightgrey;
 }
 
 /* The dots/bullets/indicators */
