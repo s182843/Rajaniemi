@@ -440,7 +440,23 @@ header a:hover{
 }
 
 
+/* test för blog sidan*/
+#showcase5{
+  min-height: 400px;
+  background: url('../img/blogdog2.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: white;
+}
 
+#showcase5 h1{
+  margin-top: 100px;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+#showcase5 p{
+  font-size: 20px;
+}
 
 
 /* newsletter*/
@@ -481,6 +497,25 @@ header a:hover{
 
 #boxes .box img{
   width: 200px;
+  border: grey solid 2px;
+}
+
+
+/* Boxes2 blog */
+#boxes2{
+  margin-top: 20px;
+
+}
+
+#boxes2 .box2{
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+ 
+}
+
+#boxes2 .box2 img{
+  width: 100%;
   border: grey solid 2px;
 }
 
@@ -530,6 +565,35 @@ aside#sidebar2{
 }
 
 
+
+
+/*Sidebar blog*/
+aside#sidebar3{
+  width: 100%;
+}
+
+.dark3{
+  padding:15px;
+  background: #efeff5;
+  color: black;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+aside#sidebar6{
+  width: 100%;
+}
+
+.dark6{
+  padding:15px;
+  background: #efeff5;
+  color: black;
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align: center;
+}
+
 /*Main-col*/
 article#main-col{
   float: left;
@@ -561,6 +625,7 @@ footer{
   #newsletter h1,
   #newsletter form,
   #boxes .box, 
+  #boxes2 .box2, 
   article#main-col,
   aside#sidebar,
   aside#sidebar2,
@@ -624,6 +689,12 @@ footer{
     color: black;
   }
 
+
+  #showcase5{
+    /* background: url('../img/rocky3.jpg') no-repeat 0 -400px; */
+    background: lightgrey;
+    color: black;
+  }
 
 }
 
@@ -844,18 +915,3 @@ Sidebar
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*blog tets*/
