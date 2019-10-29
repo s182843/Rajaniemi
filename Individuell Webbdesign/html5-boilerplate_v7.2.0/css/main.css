@@ -653,7 +653,6 @@ footer{
     margin-bottom: 5px;
   }
 
-
   .imgslide{
     border: 10px solid black;
   }
@@ -758,7 +757,7 @@ footer{
 q {font-style: italic;}
 
 /* Add a blue color to the author */
-.author {color: white;}
+/* .author {color: white;} */
 
 
 
