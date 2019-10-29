@@ -462,7 +462,7 @@ header a:hover{
 /* newsletter*/
 #newsletter{
   padding: 15px;
-  color: black;
+  color: white;
   background: grey;
   border-bottom: #000 3px solid;
   border-top: #000 3px solid;
@@ -758,7 +758,7 @@ footer{
 q {font-style: italic;}
 
 /* Add a blue color to the author */
-.author {color: black;}
+.author {color: white;}
 
 
 
