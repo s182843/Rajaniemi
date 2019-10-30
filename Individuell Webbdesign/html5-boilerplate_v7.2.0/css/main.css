@@ -305,7 +305,7 @@ ul{
 
 /* Header */
 header{
-  background: grey;
+  background: #595959;
   color: white;
   padding-top: 30px;
   min-height: 70px;
@@ -463,7 +463,7 @@ header a:hover{
 #newsletter{
   padding: 15px;
   color: white;
-  background: grey;
+  background: #595959;
   border-bottom: #000 3px solid;
   border-top: #000 3px solid;
 }
@@ -613,7 +613,7 @@ footer{
   padding: 20px;
   margin-top: 20px;
   color: white;
-  background-color: grey;
+  background-color: #595959;
   text-align: center; 
 } 
 
