@@ -344,28 +344,15 @@ header .highlight, header .current a{
   font-weight: bold;
 }
 
-
-/* test */
-
 .highlight:hover{
   color: rgba(0,0,0,0.8);
   cursor: pointer;
 }
 
-
 header a:hover{
   color: blue;
   font-weight: bold;
 }
-
-/* showcase */
-#showcase{
-  min-height: 400px;
-  background: url('../img/hund1.jpg') no-repeat 0 -400px;
-  text-align: center;
-  color: white;
-}
-
 
 /* showcase */
 #showcase{
@@ -439,7 +426,6 @@ header a:hover{
   font-size: 20px;
 }
 
-
 /* test för blog sidan*/
 #showcase5{
   min-height: 400px;
@@ -457,7 +443,6 @@ header a:hover{
 #showcase5 p{
   font-size: 20px;
 }
-
 
 /* newsletter*/
 #newsletter{
@@ -500,18 +485,15 @@ header a:hover{
   border: grey solid 2px;
 }
 
-
 /* Boxes2 blog */
 #boxes2{
   margin-top: 20px;
-
 }
 
 #boxes2 .box2{
   text-align: center;
   width: 100%;
   padding: 10px;
- 
 }
 
 #boxes2 .box2 img{
@@ -547,8 +529,6 @@ aside#sidebar5 .quote input, aside#sidebar5 .quote textarea{
   padding: 5px;
 }
 
-
-
 /*Sidebar contetns*/
 aside#sidebar2{
   float: right;
@@ -563,9 +543,6 @@ aside#sidebar2{
   margin-top:10px;
   margin-bottom:10px;
 }
-
-
-
 
 /*Sidebar blog*/
 aside#sidebar3{
@@ -657,10 +634,6 @@ footer{
     border: 10px solid black;
   }
 
-
-
-
-
   #showcase{
    /* background: url('../img/mobildogen.jpg') no-repeat 0 -400px;  */
    
@@ -674,7 +647,6 @@ footer{
    background: lightgrey;
    color: black;
   }
-
 
   #showcase3{
   /*  background: url('../img/rocky3.jpg') no-repeat 0 -400px; */
@@ -697,19 +669,6 @@ footer{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Slideshow container */
 .slideshow-container {
   position: relative;
@@ -722,8 +681,6 @@ footer{
   padding: 80px;
   text-align: center;
 }
-
-
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -756,87 +713,6 @@ footer{
 /* Add an italic font style to all quotes */
 q {font-style: italic;}
 
-/* Add a blue color to the author */
-/* .author {color: white;} */
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-Sidebar
-
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-
-
-  
-  float: left;
-}
-
-.openbtn:hover {
-  background-color: #444;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: 16px;
-} 
-
-
-
-*/
-
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -845,11 +721,6 @@ Sidebar
   position: relative;
   margin: auto;
 }
-
-/* Hide the images by default 
-.mySlides {
-  display: none;
-} */
 
 /* Next & previous buttons */
 .prev, .next {
@@ -887,8 +758,6 @@ Sidebar
   text-align: center;
 }
 
-
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -905,7 +774,7 @@ Sidebar
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+} 
 
 @media(min-width: 769px){
 .imgslide{
@@ -913,3 +782,25 @@ Sidebar
 }
 }
 
+@media(min-width: 1921px){
+  #showcase{
+    background: url('../img/hund1.jpg') no-repeat center;
+  }
+
+  #showcase2{
+    background: url('../img/aboutdog.jpg') no-repeat center;
+  }
+
+  #showcase3{
+    background: url('../img/tester1.jpg') no-repeat center;
+  }
+
+  #showcase4{
+    background: url('../img/contactdog2.jpg') no-repeat center;
+  }
+
+  #showcase5{
+    background: url('../img/blogdog2.jpg') no-repeat center;
+  }
+
+  }
